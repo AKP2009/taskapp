@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:taskapp/home.dart';
+import 'package:taskapp/specific_subject_page.dart';
 
 void main() {
-  runApp(const Homepage());
+  runApp(
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SpecificSubjectPage(),
+    ),
+  );
 }
